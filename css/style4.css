@@ -10,38 +10,45 @@ h1 {
 
 }
 
+h2 {
+  text-align: center;
+}
 
 .column {
     float: left;
     width:30%;
     padding: 1%;
     height:auto;
+    border: 3px solid black;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
 .row {
   overflow:auto;
-  background-color: yellow;
   font-weight: bold;
+
 }
 
 img {
-  width: 400px;
-  height: 400px;
+  width: 300px;
+  height: 200px;
 
 }
 
-ul {
-  list-style-type: none;
-}
-.center  {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-
-}
 .attention {
-text-align: center;
+  text-align: center;
   color: red;
+
+}
+
+#c1 {
+  background-color: red;
+
+}
+#c2 {
+  background-color: green;
+}
+#c3 {background-color: gray;
 }
