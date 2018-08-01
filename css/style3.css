@@ -1,0 +1,35 @@
+.important {
+  text-align: justify;
+  font-style: italic;
+  color: blue;
+
+
+}
+
+h1 {
+  text-align: center;
+  font-size: 35;
+
+}
+.list {
+  font-weight: bold;
+  float: left;
+}
+.sidebar {
+  width: 30%;
+  float: right;
+  background-color: yellow;
+
+}
+img {
+  width: 400;
+  height: 400;
+
+}
+.center  {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+}
