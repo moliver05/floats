@@ -1,9 +1,7 @@
 .important {
-  text-align: justify;
+  text-align: center;
   font-style: italic;
   color: blue;
-
-
 }
 
 h1 {
@@ -13,18 +11,29 @@ h1 {
 }
 .list {
   font-weight: bold;
-  float: left;
+  /*float: left;*/
+  font-size: 100;
 }
-.sidebar {
-  width: 30%;
-  float: right;
-  background-color: yellow;
+.column {
+    float: left;
+    width:30%;
+    padding: 1%;
+    height:auto;
+}
 
+
+.row {
+  overflow:auto;
 }
+
 img {
-  width: 400;
-  height: 400;
+  width: 400px;
+  height: 400px;
 
+}
+
+ul {
+  list-style-type: none;
 }
 .center  {
   display: block;
@@ -32,4 +41,8 @@ img {
   margin-right: auto;
   width: 50%;
 
+}
+.attention {
+text-align: center;
+  color: red;
 }
