@@ -16,13 +16,17 @@ h1 {
     width:30%;
     padding: 1%;
     height:auto;
+    
+
 }
 
 
 .row {
   overflow:auto;
-  background-color: yellow;
+  background-color: red;
   font-weight: bold;
+  border: 5px solid black;
+  padding: 2px;
 }
 
 img {

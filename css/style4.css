@@ -1,24 +1,47 @@
 .important {
-  font-size: 30;
-  font-weight: bold;
   text-align: center;
+  font-style: italic;
   color: blue;
 }
 
-.unimportant {
-  font-size: 30;
-  font-weight:lighter;
-  color: brown;
-}
-.special {
-  font-style: italic;
-  color: red;
-  text-align: right;
+h1 {
+  text-align: center;
+  font-size: 35;
+
 }
 
-.center {
+
+.column {
+    float: left;
+    width:30%;
+    padding: 1%;
+    height:auto;
+}
+
+
+.row {
+  overflow:auto;
+  background-color: yellow;
+  font-weight: bold;
+}
+
+img {
+  width: 400px;
+  height: 400px;
+
+}
+
+ul {
+  list-style-type: none;
+}
+.center  {
   display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+}
+.attention {
+text-align: center;
+  color: red;
 }
