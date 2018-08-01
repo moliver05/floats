@@ -9,11 +9,8 @@ h1 {
   font-size: 35;
 
 }
-.list {
-  font-weight: bold;
-  /*float: left;*/
-  font-size: 100;
-}
+
+
 .column {
     float: left;
     width:30%;
@@ -24,6 +21,8 @@ h1 {
 
 .row {
   overflow:auto;
+  background-color: yellow;
+  font-weight: bold;
 }
 
 img {
